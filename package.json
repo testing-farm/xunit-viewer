@@ -1,6 +1,6 @@
 {
   "name": "testing-farm-viewer",
-  "version": "7.0.4",
+  "version": "7.0.5",
   "description": "parses xunit xml into xunit viewer",
   "repository": {
     "url": "https://github.com/testing-farm/xunit-viewer.git",
