@@ -111,27 +111,27 @@ const Test = ({ id, messages, status, time, classname, name, properties = {}, ac
   </div>
 }
 
-const SuiteCount = ({ count, type }) => count > 0 ? <span className='suite-count'>
-  <span className='icon'>
-    <i className={`fas fa-${icons[type]}`} aria-hidden='true' />
-  </span>
-  {count}
-</span> : null
+// const SuiteCount = ({ count, type }) => count > 0 ? <span className='suite-count'>
+//   <span className='icon'>
+//     <i className={`fas fa-${icons[type]}`} aria-hidden='true' />
+//   </span>
+//   {count}
+// </span> : null
 
 const Suite = ({ visible, id, name, active = false, properties = {}, time, tests = {}, dispatch, systemOut = [] }) => {
-  let passed = 0
-  let failure = 0
-  let skipped = 0
-  let error = 0
-  let unknown = 0
-  Object.keys(tests).forEach(key => {
-    const status = tests[key].status
-    if (status === 'passed') passed += 1
-    else if (status === 'failure') failure += 1
-    else if (status === 'skipped') skipped += 1
-    else if (status === 'error') error += 1
-    else unknown += 1
-  })
+  // let passed = 0
+  // let failure = 0
+  // let skipped = 0
+  // let error = 0
+  // let unknown = 0
+  // Object.keys(tests).forEach(key => {
+  //   const status = tests[key].status
+  //   if (status === 'passed') passed += 1
+  //   else if (status === 'failure') failure += 1
+  //   else if (status === 'skipped') skipped += 1
+  //   else if (status === 'error') error += 1
+  //   else unknown += 1
+  // })
 
   const hasTests = Object.keys(tests).length > 0 && Object.values(tests).some(test => test.visible)
   const hasProperties = '_visible' in properties && properties._visible && Object.keys(properties).filter(key => key !== '_active' && key !== '_visible').length > 0

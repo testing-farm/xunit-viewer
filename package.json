@@ -1,13 +1,13 @@
 {
-  "name": "xunit-viewer",
+  "name": "testing-farm-viewer",
   "version": "7.0.1",
   "description": "parses xunit xml into xunit viewer",
   "repository": {
-    "url": "https://github.com/lukejpreston/xunit-viewer.git",
+    "url": "https://github.com/testing-farm/testing-farm-viewer.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/lukejpreston/xunit-viewer.git"
+    "url": "https://github.com/testing-farm/testing-farm-viewer.git"
   },
   "homepage": "./",
   "keywords": [
@@ -17,11 +17,11 @@
     "viewer",
     "parser"
   ],
-  "author": "lukejpreston <lukejpreston@gmail.com>",
+  "author": "Miroslav Vadkert <thrix@vadkerti.net>",
   "license": "MIT",
   "main": "xunit-viewer",
   "bin": {
-    "xunit-viewer": "bin/xunit-viewer"
+    "testing-farm-viewer": "bin/xunit-viewer"
   },
   "directories": {
     "bin": "bin",
@@ -62,7 +62,7 @@
     "@fortawesome/fontawesome-free": "^5.14.0",
     "bulma": "^0.9.0",
     "codemirror": "^5.56.0",
-    "eslint": "^7.7.0",
+    "eslint": "^7.20.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-react": "^9.2.0",
     "eslint-plugin-import": "^2.22.0",

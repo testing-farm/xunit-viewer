@@ -1,53 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="13" failures="0" time="1.725">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:03" time="0.563" tests="1">
-    <testcase classname=" get suites" name=" get suites" time="0.1">
+<testsuites name="jest tests" tests="13" failures="5" time="7.333">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:54" time="1.965" tests="1">
+    <testcase classname=" get files" name=" get files" time="0.036">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:03" time="0.063" tests="1">
-    <testcase classname=" get description" name=" get description" time="0.006">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:54" time="2.206" tests="1">
+    <testcase classname=" get suites" name=" get suites" time="0.333">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:03" time="0.076" tests="1">
-    <testcase classname=" complete multi suites" name=" complete multi suites" time="0.006">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:56" time="0.533" tests="1">
+    <testcase classname=" renders suite options" name=" renders suite options" time="0.062">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:03" time="0.056" tests="1">
-    <testcase classname=" get files" name=" get files" time="0.004">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:57" time="0.619" tests="1">
+    <testcase classname=" renders files" name=" renders files" time="0.008">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:03" time="0.088" tests="1">
-    <testcase classname=" renders test options" name=" renders test options" time="0.012">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2021-02-16T20:28:54" time="3.666" tests="1">
+    <testcase classname=" renders suite" name=" renders suite" time="0.054">
+      <failure>Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `renders suite 1`
+
+- Snapshot
++ Received
+
+@@ -1,53 +1,8 @@
+  &lt;div
+    className=&quot;card suite is-active is-populated is-hidden&quot;
+  &gt;
+-   &lt;button
+-     className=&quot;card-header&quot;
+-     disabled={false}
+-     onClick={[Function]}
+-   &gt;
+-     &lt;p
+-       className=&quot;card-header-title&quot;
+-     &gt;
+-       &lt;span&gt;
+-         suite-name
+-       &lt;/span&gt;
+-       &lt;small&gt;
+-         time = 
+-         100
+-       &lt;/small&gt;
+-     &lt;/p&gt;
+-     &lt;span
+-       className=&quot;card-header-icon&quot;
+-     &gt;
+-       &lt;span
+-         className=&quot;icon&quot;
+-       &gt;
+-         &lt;i
+-           className=&quot;fas fa-angle-down&quot;
+-         /&gt;
+-       &lt;/span&gt;
+-     &lt;/span&gt;
+-     &lt;p
+-       className=&quot;suite-count-container&quot;
+-     &gt;
+-       &lt;span
+-         className=&quot;suite-count&quot;
+-       &gt;
+-         &lt;span
+-           className=&quot;icon&quot;
+-         &gt;
+-           &lt;i
+-             aria-hidden=&quot;true&quot;
+-             className=&quot;fas fa-check&quot;
+-           /&gt;
+-         &lt;/span&gt;
+-         1
+-       &lt;/span&gt;
+-     &lt;/p&gt;
+-   &lt;/button&gt;
+    &lt;div
+      className=&quot;card-content&quot;
+    &gt;
+      &lt;div
+        className=&quot;content&quot;
+    at Object.&lt;anonymous&gt;.test (/home/mvadkert/git/github.com/xunit-viewer/src/app/suite.test.js:26:16)
+    at Object.asyncJestTest (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:03" time="0.06" tests="1">
-    <testcase classname=" renders suite" name=" renders suite" time="0.005">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:57" time="0.568" tests="1">
+    <testcase classname=" get description" name=" get description" time="0.035">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:04" time="0.05" tests="2">
-    <testcase classname=" renders hero" name=" renders hero" time="0.002">
-    </testcase>
-    <testcase classname=" renders hero with title and brand" name=" renders hero with title and brand" time="0.001">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:58" time="0.592" tests="1">
+    <testcase classname=" renders properties options" name=" renders properties options" time="0.007">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:04" time="0.064" tests="1">
-    <testcase classname=" renders files" name=" renders files" time="0.002">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:58" time="0.409" tests="1">
+    <testcase classname=" renders toggle" name=" renders toggle" time="0.006">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:04" time="0.047" tests="1">
-    <testcase classname=" renders properties options" name=" renders properties options" time="0.002">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2021-02-16T20:28:56" time="2.533" tests="1">
+    <testcase classname=" renders test options" name=" renders test options" time="0.058">
+      <failure>Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `renders test options 1`
+
+- Snapshot
++ Received
+
+@@ -11,11 +11,11 @@
+          className=&quot;control&quot;
+        &gt;
+          &lt;input
+            className=&quot;input&quot;
+            onChange={[Function]}
+-           placeholder=&quot;Tests&quot;
++           placeholder=&quot;Filter tests&quot;
+            type=&quot;text&quot;
+          /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button
+    at Object.&lt;anonymous&gt;.test (/home/mvadkert/git/github.com/xunit-viewer/src/app/test-options.test.js:7:16)
+    at Object.asyncJestTest (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:04" time="0.045" tests="1">
-    <testcase classname=" renders toggle" name=" renders toggle" time="0.002">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-02-16T20:28:58" time="0.471" tests="1">
+    <testcase classname=" complete multi suites" name=" complete multi suites" time="0.017">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:04" time="0.046" tests="1">
-    <testcase classname=" renders logo" name=" renders logo" time="0.002">
+  <testsuite name="undefined" errors="0" failures="2" skipped="0" timestamp="2021-02-16T20:28:58" time="0.71" tests="2">
+    <testcase classname=" renders hero" name=" renders hero" time="0.005">
+      <failure>Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `renders hero 1`
+
+- Snapshot
++ Received
+
+@@ -6,25 +6,10 @@
+    &gt;
+      &lt;div
+        className=&quot;columns is-mobile&quot;
+      &gt;
+        &lt;div
+-         className=&quot;column is-1&quot;
+-       &gt;
+-         &lt;button
+-           className=&quot;filter button has-text-white&quot;
+-         &gt;
+-           &lt;span&gt;
+-             &lt;i
+-               className=&quot;fas fa-filter&quot;
+-             /&gt;
+-              
+-             FILTER
+-           &lt;/span&gt;
+-         &lt;/button&gt;
+-       &lt;/div&gt;
+-       &lt;div
+          className=&quot;column is-11&quot;
+        &gt;
+          &lt;div
+            className=&quot;hero-center&quot;
+          &gt;
+    at Object.&lt;anonymous&gt;.test (/home/mvadkert/git/github.com/xunit-viewer/src/app/hero.test.js:7:16)
+    at Object.asyncJestTest (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" renders hero with title and brand" name=" renders hero with title and brand" time="0.004">
+      <failure>Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `renders hero with title and brand 1`
+
+- Snapshot
++ Received
+
+@@ -6,25 +6,10 @@
+    &gt;
+      &lt;div
+        className=&quot;columns is-mobile&quot;
+      &gt;
+        &lt;div
+-         className=&quot;column is-1&quot;
+-       &gt;
+-         &lt;button
+-           className=&quot;filter button has-text-white&quot;
+-         &gt;
+-           &lt;span&gt;
+-             &lt;i
+-               className=&quot;fas fa-filter&quot;
+-             /&gt;
+-              
+-             FILTER
+-           &lt;/span&gt;
+-         &lt;/button&gt;
+-       &lt;/div&gt;
+-       &lt;div
+          className=&quot;column is-11&quot;
+        &gt;
+          &lt;div
+            className=&quot;hero-center&quot;
+          &gt;
+    at Object.&lt;anonymous&gt;.test (/home/mvadkert/git/github.com/xunit-viewer/src/app/hero.test.js:12:16)
+    at Object.asyncJestTest (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-18T09:50:04" time="0.046" tests="1">
-    <testcase classname=" renders suite options" name=" renders suite options" time="0.002">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2021-02-16T20:28:59" time="0.477" tests="1">
+    <testcase classname=" renders logo" name=" renders logo" time="0.005">
+      <failure>Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `renders logo 1`
+
+- Snapshot
++ Received
+
+- &lt;svg
++ &lt;img
++   alt=&quot;Testing Farm&quot;
+    className=&quot;logo&quot;
+-   fill=&quot;none&quot;
+    height=&quot;64&quot;
+-   viewBox=&quot;0 0 64 64&quot;
++   src=&quot;https://assets.gitlab-static.net/uploads/-/system/group/avatar/5515434/tft-logo.png&quot;
+    width=&quot;64&quot;
+-   xmlns=&quot;http://www.w3.org/2000/svg&quot;
+- &gt;
+-   &lt;rect
+-     fill=&quot;#2C3E50&quot;
+-     height=&quot;64&quot;
+-     width=&quot;64&quot;
+-   /&gt;
+-   &lt;path
+-     d=&quot;M19.0625 28.9688L24.5156 20.25H28.0469L20.8594 31.5312L28.2188 43H24.6562L19.0625 34.125L13.4375 43H9.89062L17.2656 31.5312L10.0625 20.25H13.5781L19.0625 28.9688Z&quot;
+-     fill=&quot;#0DBF1F&quot;
+-   /&gt;
+-   &lt;path
+-     d=&quot;M42.4344 39.0156L48.9344 20.25H52.2156L43.7781 43H41.1219L32.7 20.25H35.9656L42.4344 39.0156Z&quot;
+-     fill=&quot;#B32010&quot;
+-   /&gt;
+-   &lt;path
+-     clipRule=&quot;evenodd&quot;
+-     d=&quot;M0 64L4 60V4H60L64 0H4H0V4V64Z&quot;
+-     fill=&quot;#0DBF1F&quot;
+-     fillRule=&quot;evenodd&quot;
+-   /&gt;
+-   &lt;path
+-     clipRule=&quot;evenodd&quot;
+-     d=&quot;M0 64H60H64V60V0L60 4V60H4L0 64Z&quot;
+-     fill=&quot;#B32010&quot;
+-     fillRule=&quot;evenodd&quot;
+-   /&gt;
+- &lt;/svg&gt;
++ /&gt;
+    at Object.&lt;anonymous&gt;.test (/home/mvadkert/git/github.com/xunit-viewer/src/app/logo.test.js:7:16)
+    at Object.asyncJestTest (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/home/mvadkert/git/github.com/xunit-viewer/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   </testsuite>
 </testsuites>
